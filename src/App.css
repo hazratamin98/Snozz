@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "mathlete";
+  src: local("Papyrus") local("Baskerville Old Face")
+    url("Mathlete-Bulky-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: "no-repeat";
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #145d84;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid;
+}
+.navbar img {
+  height: 18px;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+  width: 50%;
+
+  margin-top: 40px;
+}
+
+.madame {
+  background: #0b3670;
+  text-align: center;
+  width: 70%;
+  height: 20%;
+  border: 2px solid rgb(197, 224, 180);
+  text-align: center;
+  color: #c5e0b4;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 50px;
+  font-family: "mathlete";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 35px;
+}
+.left_wrapper {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 6%;
+  position: relative;
+
+  height: 100%;
+}
+
+.power__prayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #c5e0b4;
+  height: 250px;
+  border: 2px solid rgb(197, 224, 180);
+  line-height: 30px;
+}
+.power__prayer h3 {
+  text-align: center;
+  font-weight: 24%;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  height: fit-content;
+  margin-top: 60px;
+}
+.outer {
+  color: #c5e0b4;
+  height: 150px;
+  border: 5px solid rgb(197, 224, 180);
+  margin-top: 1%;
+}
+
+.prof_prayer h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-weight: 24%;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  height: fit-content;
+}
+.prof_prayer p {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 4px;
+  height: fit-content;
+}
+
+/*******  cards  ********/
+.cards_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.firsts_card {
+  display: flex;
+}
+
+.second_card {
+  display: flex;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4,
+.card_5,
+.card_6 {
+  background: url(images/background.jpg);
+  margin-left: 20px;
+  margin: 35px;
+  border: 4px solid #c6dfb5;
+  height: fit-content;
+  width: 70%;
+}
+
+.card_1 h1 {
+  color: #ffff00;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_1 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+.hand {
+  display: flex;
+}
+img {
+  height: 50px;
+}
+.card_night {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+.card_night h3 {
+  margin-left: 7px;
+}
+.card_2 h1 {
+  color: #ffff00;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_2 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+.card_3 h1 {
+  color: #ffc000;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_3 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+.card_4 h1 {
+  color: #ffff00;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_4 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+.card_5 h1 {
+  color: #ffc000;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_5 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+
+.card_6 h1 {
+  color: red;
+  font-family: "mathlete";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card_6 p {
+  line-height: 25px;
+  color: #ffffff;
+  height: fit-content;
+}
+
+.price {
+  color: #c5e0b4;
+}
+
+/* .card::after {
+  content: "";
+  background-color: red;
+  position: absolute;
+  height: fit-content;
+} */
+
+/******* Footer ********/
+
+.footer {
+  color: #ff0000;
+  margin-left: 16px;
+  margin-top: 20px;
+  width: 40%;
+}
+
+.cpyright a {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: black;
+}
+
+/* @media screen and (max-width: 600px) {
+  .madame {
+    background: #1d547d;
+
+    width: 70%;
+    height: 20%;
+    border: 2px solid rgb(197, 224, 180);
+    text-align: center;
+    color: #c5e0b4;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+    font-family: "mathlete";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 35px;
+  }
+} */
